@@ -1,4 +1,4 @@
-package com.postgresql.playerstattracker;
+package com.postgresql.playerstattracker.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -14,7 +14,7 @@ public class Player {
     private String name;
     private String position;
     private String height;
-    private Double PointsPG;
+    private Double pointsPG;
     private Double assistPG;
     private Double reboundsPG;
     private Double stealsPG;
